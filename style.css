@@ -1,0 +1,84 @@
+#bodyWrap {
+  position:fixed;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 0;
+  width:100vw;
+  height:100vw;
+  text-align:center;
+  margin:auto;
+  top:0;left:0;bottom:0;right:0;
+  background:url(images/bub4.png)repeat,url(images/bub3.png)no-repeat;
+  background-size:auto;
+  max-width:1200px;}
+  
+  header{
+   display:block;position:fixed;width:100%;max-width:1200px;font-size:20px;color:rgb(247, 115, 211);top:0;
+  height:50px;text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;}
+  
+  .nWrap {
+  display:flex;
+  height: 100%;
+  width:100%;
+  align-items: center;
+  justify-content: center;float:left; 
+}
+.wName{display:inline-flex;height:100%;width:50%;align-items: center;
+  justify-content: center;font-weight: 700;border-bottom: 2px solid rgba(255, 0, 191, 0.384)}
+
+
+.otherLinks{display:inline-flex;height:70%;width:100%;align-items: center;
+  justify-content: center;margin:0;padding:0;border-bottom: 2px solid rgba(255, 0, 191, 0.384)}
+
+.pages {display:inline-flex;align-items: center;width:100%;height:100%;
+  justify-content: center;margin:0;padding-inline-start: 0;padding:0;list-style-type:none}
+  .pages li{display:inline-flex;align-items: center;justify-content: center;width:20%;height:100%;margin:auto;border-radius:15px}
+.pages a{display:inline-flex;font-weight: 700;font-size:1em;margin:auto;width:50%;height:100%;text-align:center;align-items: center;justify-content: center}
+
+
+#bodyWide{ position:fixed;display:flex;justify-content: center;align-items: center;width:100%;height:100%; top:0;left:0;bottom:0;right:0;background-color:rgb(255, 0, 191);color:white;z-index:1}
+
+.mainBody{position:fixed;top:90px;bottom:70px;margin:auto;box-sizing: border-box;max-width:1200px}
+.mainBody p {position:relative;top:0;height:100%;width:100%; background-color:rgb(255, 0, 191,.2);box-sizing: border-box;overflow: auto}
+
+.lowBan{display:block;position:fixed;bottom:0;width:100%;height:52px;max-width:1200px;border-top: 2px solid rgba(255, 0, 191, 0.384)}
+
+.footWrap{display:flex;color:red;width:100%;height:100%;margin:0;padding:0;visibility:visible;font-weight: 700;background-color:rgba(255, 0, 191, 0.0)}
+
+.disclaimer{display:inline-block;
+width:70%;height:100%;}
+
+.disclaimerLg{display:inline-block;position:absolute;
+width:70%;color:black;height:100%;align-items: center;justify-content: center;visibility:hidden;}
+
+.disclaimerLg p {margin-block-start: .5em;
+    margin-block-end: 0;font-size:.7em }
+
+.socWrap{position:absolute;display:inline-flex;width:30%;height:100%;align-items: center;justify-content: center;right:0;bottom:0;}
+
+.socLogo{box-sizing: border-box;border-left: 1.5px solid;position:absolute;display:inline-block;width:100%;height:100%;right:0;bottom:0;color:rgb(247, 115, 211);text-align:center;cursor:pointer;text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;}
+
+.socLogo p {font-size:19px;color:rgb(247, 115, 211)}
+
+
+.socials {display:inline-block;width:100%;height:100%;align-items: center;justify-content: center;position:relative;list-style-type:none;padding:0; left:0;padding-inline-start: 0;margin-block-end: 0;bottom:410%;margin-block-start: 0;transform:translateY(500%);-webkit-transition:transform .2s ease-out;-o-transition:transform .2s ease-out;-moz-transition: transform .2s ease-out;
+-ms-transition: transform .2s ease-out;transition:transform .2s ease-out;visibility:visible;font-size:30px}
+
+.discPopup{display:flex;width:100%;height:400%;position:relative;bottom:400%;background-color:rgb(0,2,2,.8);
+margin-block-start: 0;-webkit-transition:transform .2s ease-out;-o-transition:transform .2s ease-out;-moz-transition: transform .2s ease-out;-ms-transition: transform .2s ease-out;transition:transform .2s ease-out;transform:translateY(400%);visibility:hidden;color:white;align-items: center;justify-content: center}
+
+.socials li {display:inline-flex;align-items: center;justify-content: center;position:relative;width:100%;height:100%;background-color:pink;}
+.socials li a {width:100%;height:100%;display:inline-flex;align-items: center;justify-content: center;text-decoration:none;color:rgb(247, 115, 211)}
+.socWrap:hover  .socials {transform:translateY(0);visibility:visible}
+.nWrap:hover{background-color:rgba(235, 21, 103, 0.35)}
+.wName:hover {border-radius:15px;background-color:rgb(235, 21, 103);color:rgb(241, 226, 4);border-bottom: 0px solid rgba(255, 0, 191, 0.384)}
+.otherLinks:hover {background-color:rgba(235, 21, 103, 0.337);}
+
+.socials li a:hover {border-radius:15px;background-color:rgb(235, 21, 103);color:rgb(253, 240, 58);}
+
+.socials li p{color:inherit}
+
+.disclaimer:hover .discPopup{position:relative;transform:translateY(0);visibility:visible}
+.pages li:hover{background-color:rgb(235, 21, 103);color:rgb(241, 226, 4);}
+
+@media(min-width:550px){.nWrap {width:34%;border-bottom: 2px solid rgba(255, 0, 191, 0.384)}.wName{border-bottom: 0px solid rgba(255, 0, 191, 0.384)}.otherLinks{width:66%;height:100%;} .disclaimer{z-index:-1;visibility:hidden} .socLogo {visibility:hidden}.disclaimerLg{visibility:visible}.lowBan{height:47px}.socials{position:absolute;bottom:0;transform:none;}.socials li{width:20%;margin:0;padding:0;background-color:rgba(235, 21, 103, 0);z-index:+1}.mainBody{top:55px}
