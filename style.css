@@ -43,27 +43,56 @@
 #bodyWide{color: white;position:fixed;display:flex;justify-content: center;align-items: center;width:100%;height:100%; top:0;left:0;bottom:0;right:0;background-color:rgb(255, 0, 191);color:white;z-index:1}
 #bodyWide h1{font-family: 'Open Sans Condensed', sans-serif; color: white;background:none}
 .mainBody {width:100%;color:rgb(247, 115, 211);border: 1px solid;display:block;position:fixed;top:96px;bottom:52px;margin:auto;box-sizing: border-box;max-width:1200px;overflow: auto}
-.mainBody p {color:rgb(135,135,135);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;line-height: 1.6;height:100%;font-size: 2em;position:relative;width:100%; background-color:rgb(240, 235, 221,.4);/*background-color:rgb(255, 255, 255,.5)*/;box-sizing: border-box;margin:0;overflow: auto}
+.mainBody p {color: rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;line-height: 1.6;height:100%;font-size: 2em;position:relative;width:100%; background-color:rgb(240, 235, 221,.4);/*background-color:rgb(255, 255, 255,.5)*/;box-sizing: border-box;margin:0;overflow: auto}
 
 .bodyList{list-style-position: inside;display: flex;align-items: center;justify-content: center;width:100%;text-align: left;font-size: 1.3em;margin:0 0 25px 0;color:rgb(135,135,135);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
-.bodyList li {margin:15px 0 25px 0;}
-.bodyList a {width:100%}
+.bodyList li {margin:15px 0 25px 0;color: rgb(247, 115, 211);font-size: 1.2em}
+.bodyList  li ol li {color:rgb(237, 76, 138);font-size: 1.5em}
+.bodyList a {width:100%;}
 
 .howtoList{position:relative;list-style-position: inside;display: flex;align-items: center;justify-content: center;text-align: left;width:100%;font-size: 1.3em;margin:0 0 25px 0;color:rgb(135,135,135);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
-.howtoList li{margin:15px 0 25px 0;}
-.howtoList  a {text-decoration: none;color:inherit;}
+.howtoList li{margin:15px 0 25px 0;color: rgb(247, 115, 211);}
+.howtoList  a {font-size: 1.5em;text-decoration: none;color:inherit;}
 
 .favProd{display: block;margin: auto;height: auto;width: 100%;overflow: auto}
-.inAllp{background:url(images/allProdWE.jpg)no-repeat center ;}
+/*.inAllp{background:url(images/allProdWE.jpg)no-repeat center ;}*/
 .shadow{box-sizing: border-box;-webkit-box-shadow: 0 0 20px #700766;-moz-box-shadow: 0 0 20px #700766;box-shadow: 0 0 20px #700766;border-radius: 15px;}
 /*.bodyList ul{margin:0;}*/
 
-li ol li {margin:7px 0 7px 25px}
+.contForm{display:block;background-color:rgb(245, 240, 225,.75);margin-top: 0}
+.contForm h2{font-size: 2em;margin:15px 0 0 0;color: rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color: rgba(255,255,255,0);}
+.contForm input[type=text], textarea {
+  position: relative;
+  width: 320px;
+  border:1px solid #700766;
+  border-radius: 4px;
+}
+  .contForm  textarea {height:100px}
+  
+  
+  .contForm input[type=submit] {
+  background-color: #4796b5;
+  color: white;
+  height:30px;
+  width:100px;
+  border:1px solid #700766;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom:10px;
+  font-size: 1.2em;
+  
+}
+
+.contForm input[type=submit]:hover {
+ border-radius:10px;background-color:rgb(235, 21, 103);color:rgb(241, 226, 4);border-bottom: 0px solid rgba(255, 0, 191, 0.384)
+}
+
+/*li ol li {margin:7px 0 7px 25px;}*/
 .favProd h1{box-sizing: border-box;margin:0px 0 20px 0;color:rgb(237, 76, 138);text-shadow:	rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px, rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
 .favProd h5{margin-top:1px;font-family: 'Open Sans Condensed', sans-serif;box-sizing: border-box;color:rgb(193, 232, 215);text-shadow:	rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px, rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px;-webkit-font-smoothing: antialiased;}
 .favProd h2{box-sizing: border-box;border-bottom: .5px solid;margin:0px 0 20px 0;color:rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px, rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px,   rgb(27, 2, 73) 0px 0px 3px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
-h1{margin:15px 0 10px 0;color: rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
-h3 {margin:0 0 25px 0;color:rgb(135,135,135);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
+h1{font-size: 2.5em;margin:15px 0 10px 0;color: rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
+h3 {font-size: 1.5em;margin:0 0 25px 0;color:rgb(247, 115, 211);text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;background-color:rgb(245, 240, 225,.75);}
 
 .lowBan{background-color:rgb(245, 240, 225,.75);display:block;position:fixed;bottom:0;width:100%;height:52px;max-width:1200px;border-top: 2px solid rgba(255, 0, 191, 0.384)}
 
