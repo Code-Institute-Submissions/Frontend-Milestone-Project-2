@@ -3,7 +3,6 @@
 
 #bodyWrap {
   position:fixed;
-  font-family: Arial;
   font-size: 16px;
   padding: 0;
   width:100vw;
@@ -30,6 +29,37 @@ h3 {
   background-color:rgb(245, 240, 225,.75);
 }
 
+.bubUp{pointer-events:none;
+   overflow: hidden;
+ position: relative;-moz-transform:translatey(100%);
+ -webkit-transform:translatey(100%);	
+ transform:translatey(100%);
+ /* Apply animation to this element */	
+ -moz-animation: bubUp 15s linear infinite;
+ -webkit-animation: bubUp 15s linear infinite;
+ animation: bubUp 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes bubUp {
+ 0%   { -moz-transform: translatey(100%); }
+ 100% { -moz-transform: translatey(-100%); }
+}
+@-webkit-keyframes bubUp {
+ 0%   { -webkit-transform: translatey(100%); }
+ 100% { -webkit-transform: translatey(-100%); }
+}
+@keyframes bubUp {
+ 0%   { 
+ -moz-transform: translatey(100%); /* Firefox bug fix */
+ -webkit-transform: translatey(100%); /* Firefox bug fix */
+ transform: translatey(100%); 		
+ }
+ 100% { 
+ -moz-transform: translatey(-100%); /* Firefox bug fix */
+ -webkit-transform: translatey(-100%); /* Firefox bug fix */
+ transform: translatey(-100%); 
+ }
+}
   
   header{
   background-color:rgb(245, 240, 225,.75);
@@ -165,10 +195,11 @@ padding:0;list-style-type:none
 .mainBody p {
   color: rgb(247, 115, 211);
   text-shadow:	rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px, rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px,   rgb(27, 2, 73) 0px 0px 1px;-webkit-font-smoothing: antialiased;
-  line-height: 1.6;
+  line-height: 1.8;
   height:100%;
-  font-size: 2em;
-  position:relative;
+  font-size: 1em;
+  position:absolute;
+  top:0;
   width:100%;
   background-color:rgb(240, 235, 221,.4);
   box-sizing: border-box;
@@ -410,11 +441,11 @@ visibility:hidden;
   bottom:410%;
   margin-block-start: 0;
   transform:translateY(500%);
-  -webkit-transition:transform .2s ease-out;
-  -o-transition:transform .2s ease-out;
-  -moz-transition: transform .2s ease-out;
--ms-transition: transform .2s ease-out;
-transition:transform .2s ease-out;
+  -webkit-transition:transform .8s ease-out;
+  -o-transition:transform .8s ease-out;
+  -moz-transition: transform .8s ease-out;
+-ms-transition: transform .8s ease-out;
+transition:transform .8s ease-out;
 visibility:visible;
 font-size:30px;
 }
