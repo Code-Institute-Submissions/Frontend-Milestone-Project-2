@@ -2,6 +2,8 @@
 In this Project I created a website for my girlfriend, where she acts as a guide in skincare.
 this project was very difficult to implement. I avoided Bootstrap because Ifound that it requires a too deep Knolwedge before I can use it. I also found a page where are listed alot of Bootstrap bugs, it put me completely off using it
 
+The project can be viewd at https://paoloalbanese.github.io/Frontend-Milestone-Project/
+
 ## Header and Footer
 By far the most diffucult part of the project. I wanted them to resize according to media width, it took countless tries and error. 
 the Website name serves as link to the homepage, the links to the other pages are on aseparate line up to breakpoint width 550px, where they form one line with the home link;
